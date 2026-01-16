@@ -70,3 +70,30 @@ console.log(typeof myObj); // object
 
 // let x = 10;
 // x = "hello";   // ✅ allowed
+
+
+// +++++++++++++++++++++++
+
+// Stack(Primitive) , Heap(Non primitive)
+
+// stack ke ander koi bhi chij lenge to uska copy hi milta hai variable ka EXAMPLE
+
+let MybrotherName = "Ayush"
+
+let anotherName = MybrotherName
+anotherName = "Nidhi"
+console.log(anotherName); //Nidhi
+console.log(MybrotherName); //Ayush you see yaha another name me 2nd line me ayush value copy hui hai actual value nahi gayi hai that's why jab mybrothername print kiya to ayush hi aaya vo change nahi hua
+
+//HEAP KE ANDER KOI BHI VALUE Rakhte hai to uska reference milta hai mtlb actual value aa ti hai
+
+let userone = {
+    email:"pranjal12@gmail.com",
+    upiID : "hey@ybl"
+}
+let userTwo = userone
+userTwo.email = "vikrantveer123@gmail.com"
+console.log(userone);//'vikrantveer123@gmail.com', upiID: 'hey@ybl'
+console.log(userTwo);//'vikrantveer123@gmail.com', upiID: 'hey@ybl'
+
+
