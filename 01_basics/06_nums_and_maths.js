@@ -81,15 +81,3 @@ console.log(Math.random()*(max-min+1)+min);
 console.log(Math.floor(Math.random()*(max-min+1))+min); 
 
 //Remember ye math.random() wala concept is very important
-
-
-
-
-
-
-
-
- 
- 
-
-
