@@ -88,13 +88,22 @@ const{courseInstructor : Instructor} = course
 console.log(Instructor);//IT also give Hitesh
 
 //JSON define karne ka tarika
-{
-    "name" : "Pranjal",
-    "courseName":"js in hindi",
-    "price" : "free"
+// {
+//     "name" : "Pranjal",
+//     "courseName":"js in hindi",
+//     "price" : "free"
 
-}
+// }
 //IN JSON key always in quotes,FUNCTIONS not allowed,used in data transfer
 
+// 👉 Ye pure JSON format hai
+// 👉 Par tu ise .js file ke andar likh raha hai
+
+// JS bolta:
+
+// bhai ye kis variable me hai? mai kya karu is block ka? ❌
+
+// Isliye VS Code red underline dikha raha hai (error).
+// json jo hai .json file ke andar likhi jati hai
 
 
