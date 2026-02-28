@@ -64,3 +64,15 @@ if(bmi<18.6){
 }
 });
 ```
+
+## project 3 solution code
+
+```javascript
+const clock = document.getElementById('clock');
+// const clock = document.querySelector('#clock') both are right
+
+setInterval(function(){
+  let date = new Date();
+  clock.innerHTML = date.toLocaleTimeString();
+},1000)
+```
